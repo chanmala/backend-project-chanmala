@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    div.text-center
+            - var h1Classes = ['h3', 'mb-3', 'font-weight-normal']
+            h1(class=h1Classes) Error
+            h2 Message: #{msg}
